@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import generateJWTtoken from "../../helpers/JWT.js";
+import generateJWTtoken from "../../helpers/jwt.js";
 import employeeProfessionalModel from "../../models/employee/employeeProfessional.model.js";
 import nodemailer from  'nodemailer';
 import jwt from 'jsonwebtoken'
